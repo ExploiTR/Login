@@ -1,0 +1,9 @@
+<resources>
+    
+    <style name="SetNActiv" parent="android:Theme.Light">
+        
+        android:background = "@android:style/Theme.Holo.Light.Dialog"
+
+  </style>
+
+</resources>
