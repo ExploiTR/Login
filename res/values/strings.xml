@@ -17,6 +17,6 @@
     <string name="relogin">Re-Login</string>
     <string name="Nstatus">Status :</string>
     <string name="dsl">This application is only to be used for personal/non-commercial usage and must be used on networks for which you have permission to do so. Any other use will not be the responsibility of the developer.In other words, you will be responsible for what you do.</string>
-    <string name="lsc">Login by ExploiTR is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.For more information, visit http://creativecommons.org/licenses/by-nc-sa/4.0/</string>
+    <string name="lsc">Login by ExploiTR is licensed under Apache 2.0 License.For more information, visit https://www.apache.org/licenses/LICENSE-2.0/</string>
     <string name="lsc2">The Icons used here, including the application logo, and other logos are copyright of the developer and made with Adobe Photoshop CS6 Extended</string>
 </resources>
