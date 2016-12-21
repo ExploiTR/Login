@@ -4,7 +4,7 @@ An ISP [Wishnet] Web-Basesd Autologin Helper
 #Features :
 1. OneClick Login and connect to Internet
 2. OneClick Logout and disconnect from Internet
-3. Username and Password are stored securely in data/data/app.exploitr.fast.login [Un-Enscrypted]
+3. Username and Password are stored securely in data/data/app.exploitr.fast.login [Un-Encrypted]
 4. This time only WishNet is supported, focus on the future versions for other ISP support.
 
 #License
