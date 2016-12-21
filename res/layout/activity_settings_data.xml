@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#263238"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:id="@+id/LoginAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/data_top_text"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+    
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <EditText
+        android:id="@+id/usernameput"
+        android:layout_width="fill_parent"
+        android:textColor="@android:color/white"
+        android:layout_height="80dp"
+        android:ems="10"
+        android:hint="@string/USERNAMEhint" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <EditText
+        android:id="@+id/passwordput"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:textColor="@android:color/white"
+        android:ems="10"
+        android:hint="@string/PASSWORDhint"
+        android:inputType="textPassword" >
+
+        <requestFocus />
+    </EditText>
+
+
+    <RelativeLayout
+        android:id="@+id/rlayoutx"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/saveData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="16dp"
+            android:gravity="center"
+            android:text="@string/SaveCRBTtxt"
+            android:textColor="@android:color/white" />
+
+    </RelativeLayout>
+
+</LinearLayout>
