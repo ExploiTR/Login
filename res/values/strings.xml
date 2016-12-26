@@ -10,14 +10,9 @@
     <string name="USERNAMEhint">Username</string>
     <string name="PASSWORDhint">Password</string>
     <string name="SaveCRBTtxt">Save Credentials</string>
-    <string name="action_wishnet_settings">Server Settings</string>
-    <string name="Logout">Logout</string>
-    <string name="re_login">Re-Login</string>
-    <string name="yes">Yes</string>
-    <string name="no">No</string>
-    <string name="relogin">Re-Login</string>
+    <string name="Logout">Logout</string>  
     <string name="Nstatus">Status :</string>
     <string name="dsl">This application is only to be used for personal/non-commercial usage and must be used on networks for which you have permission to do so. Any other use will not be the responsibility of the developer.In other words, you will be responsible for what you do.</string>
     <string name="lsc">Login by ExploiTR is licensed under This project is licensed under the terms of Apache 2.0 license. Additionally, the font at assets/sfont.ttf is Kano font (Kano Geometric Typeface) by Frederick Lee ( https://www.behance.net/flgraphic / http://ideasonpurpose.com/ )</string>
-    <string name="lsc2">The AESCrypt Library (Class) used to encrypt sharedpreferences, is copyright of Scott Alexander-Bown(http://www.scottyab.com).The Icons used here, including the application logo, and other logos are copyright of the developer and made with Adobe Photoshop CS6 Extended</string>
+    <string name="lsc2">The AESCrypt Library (Class) used, is copyright of Scott Alexander-Bown(http://www.scottyab.com).The Icons used here, including the application logo, and other logos are copyright of the developer and made with Adobe Photoshop CS6 Extended</string>
 </resources>
