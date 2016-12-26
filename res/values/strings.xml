@@ -6,6 +6,7 @@
     <string name="Stocko_mod">Login</string>
     <string name="data_top_text">Login Settings</string>
     <string name="USER"></string>
+    <string name="keyhint">Private Key [Encryption]</string>
     <string name="PASSWORD"></string>
     <string name="USERNAMEhint">Username</string>
     <string name="PASSWORDhint">Password</string>
