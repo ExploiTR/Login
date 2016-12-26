@@ -1,4 +1,4 @@
-# Login [V2-Photon]
+# Login 
 An ISP [Wishnet] Web-Basesd Autologin Helper
 
 #Features :
