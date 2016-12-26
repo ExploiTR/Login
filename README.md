@@ -1,5 +1,5 @@
 # Login 
-An ISP [Wishnet] Web-Basesd Autologin Helper
+An ISP [Wishnet] Web-Based Autologin Helper
 
 #Features :
 1. OneClick Login and connect to Internet
