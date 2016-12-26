@@ -10,7 +10,7 @@ An ISP [Wishnet] Web-Basesd Autologin Helper
 6. Impressive GUI
 
 #Encryption:
-Now, Username and Password stored in SharedPreferences are totally secured from ROOT user and encrypted with private key. AESCrypt by Scott Alexander-Bown library(class) is used.(http://www.scottyab.com /https://github.com/scottyab/AESCrypt-Android)
+Now, Username and Password stored in SharedPreferences are totally secured from ROOT user and encrypted with private key. AESCrypt by Scott Alexander-Bown library(class) is used.(http://www.scottyab.com / https://github.com/scottyab/AESCrypt-Android)
 
 #License
 This project is licensed under the terms of Apache 2.0 license. Additionally, the font at assets/sfont.ttf is Kano font (Kano Geometric Typeface) by Frederick Lee ( https://www.behance.net/flgraphic / http://ideasonpurpose.com/ )
