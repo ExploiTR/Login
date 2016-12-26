@@ -13,6 +13,8 @@
         android:id="@+id/LoginAbout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
         android:gravity="center_horizontal"
         android:text="@string/data_top_text"
         android:textColor="#FFFFFF"
@@ -20,7 +22,7 @@
     
     <Space
         android:layout_width="match_parent"
-        android:layout_height="15dp" />
+        android:layout_height="10dp" />
 
     <EditText
         android:id="@+id/usernameput"
@@ -28,7 +30,10 @@
         android:textColor="@android:color/white"
         android:layout_height="80dp"
         android:ems="10"
-        android:hint="@string/USERNAMEhint" />
+        android:hint="@string/USERNAMEhint">
+        <requestFocus />
+    </EditText>  
+        
 
     <Space
         android:layout_width="match_parent"
@@ -41,24 +46,32 @@
         android:textColor="@android:color/white"
         android:ems="10"
         android:hint="@string/PASSWORDhint"
-        android:inputType="textPassword" >
-
-        <requestFocus />
-    </EditText>
-
+        android:inputType="textPassword" />
+    
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+    
+    <EditText
+        android:id="@+id/key"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:ems="10"
+        android:hint="@string/keyhint"
+        android:inputType="textPassword"
+        android:textColor="@android:color/white" />
 
     <RelativeLayout
-        android:id="@+id/rlayoutx"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:padding="20dp" >
 
         <Button
             android:id="@+id/saveData"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true"
-            android:layout_margin="16dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
             android:gravity="center"
             android:text="@string/SaveCRBTtxt"
             android:textColor="@android:color/white" />
