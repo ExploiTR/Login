@@ -141,6 +141,14 @@
                     android:text="Medium Text"
                     android:textAppearance="?android:attr/textAppearanceSmall" />
             </LinearLayout>
+
+            <Button
+                android:id="@+id/OK"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:text="I&apos;ve got it!" />
+
         </LinearLayout>
 
     </ScrollView>
@@ -148,12 +156,5 @@
     <Space
         android:layout_width="match_parent"
         android:layout_height="8dp" />
-
-    <Button
-        android:id="@+id/OK"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="I&apos;ve got it!" />
 
 </LinearLayout>
