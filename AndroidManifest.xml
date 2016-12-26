@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="app.exploitr.fast.login"
-    android:versionCode="20122016"
-    android:versionName="2 - Photon" xmlns:tools="http://schemas.android.com/tools">
+    android:versionCode="25122016"
+    android:versionName="3 - Positron" xmlns:tools="http://schemas.android.com/tools">
 
 
     <uses-sdk
@@ -27,7 +27,7 @@
     				<category android:name="android.intent.category.LAUNCHER" />
     			</intent-filter>
     		</activity>
-    		<activity android:launchMode="singleInstance" android:theme="@android:style/Theme.Holo.Light.Dialog" android:label="About Login v2 Photon" android:name="app.pforpratim.fast.login.AboutActivity">
+    		<activity android:launchMode="singleInstance" android:theme="@android:style/Theme.Holo.Light.Dialog" android:label="About Login v3 Positron" android:name="app.pforpratim.fast.login.AboutActivity">
     		</activity>
     		<activity android:launchMode="singleInstance" android:theme="@android:style/Theme.Holo.Light.Dialog.NoActionBar" android:name="app.pforpratim.fast.login.SettingsActivity" android:label="@string/Stocko_mod">
     		</activity>
