@@ -4,10 +4,13 @@ An ISP [Wishnet] Web-Based Autologin Helper
 #Features :
 1. OneClick Login and connect to Internet
 2. OneClick Logout and disconnect from Internet
-3. Username and Password are stored securely in data/data/app.exploitr.fast.login
+3. Username and Password are stored securely in /data/data/app.exploitr.fast.login
 4. This time only WishNet is supported, focus on the future versions for other ISP support.
-5. Super- "LightWeight" - package only 64.4 Kb (No unusual codes or enhancements)
+5. Super - "LightWeight" - package (No unusual codes or enhancements)
 6. Impressive GUI
+7. *[New]* Login now can make connection Keep-alived! 
+8. *[New]* Notification added
+9. *[New]* No again preloaded en/de-cryption key - separate en/de-cryption key for each devices!
 
 #Encryption:
 Now, Username and Password stored in SharedPreferences are totally secured from ROOT user and encrypted with private key. AESCrypt by Scott Alexander-Bown library(class) is used.(http://www.scottyab.com / https://github.com/scottyab/AESCrypt-Android)
