@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="app.exploitr.fast.login"
-    android:versionCode="25122016"
+    android:versionCode="610221"
     android:versionName="4 - Antimatter" xmlns:tools="http://schemas.android.com/tools">
 
 
