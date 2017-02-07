@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="app.exploitr.fast.login"
     android:versionCode="25122016"
-    android:versionName="3 - Positron" xmlns:tools="http://schemas.android.com/tools">
+    android:versionName="4 - Antimatter" xmlns:tools="http://schemas.android.com/tools">
 
 
     <uses-sdk
