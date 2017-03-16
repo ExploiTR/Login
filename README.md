@@ -1,7 +1,7 @@
 # Login 
 An ISP [Wishnet] Web-Based Autologin Helper
 
-#Features :
+# Features :
 1. OneClick Login and connect to Internet
 2. OneClick Logout and disconnect from Internet
 3. Username and Password are stored securely in /data/data/app.exploitr.fast.login
@@ -12,18 +12,18 @@ An ISP [Wishnet] Web-Based Autologin Helper
 8. *[New]* Notification added
 9. *[New]* No again preloaded en/de-cryption key - separate en/de-cryption key for each devices!
 
-#Encryption:
+# Encryption:
 Now, Username and Password stored in SharedPreferences are totally secured from ROOT user and encrypted with private key. AESCrypt by Scott Alexander-Bown library(class) is used.(http://www.scottyab.com / https://github.com/scottyab/AESCrypt-Android)
 Each encryption key for each devices.
 
-#License
+# License
 This project is licensed under the terms of Apache 2.0 license. Additionally, the font at assets/sfont.ttf is Kano font (Kano Geometric Typeface) by Frederick Lee ( https://www.behance.net/flgraphic / http://ideasonpurpose.com/ )
 
-#Downloads
+# Downloads
 
 https://github.com/ExploiTR/Login/releases
 
-#ScreenShots
+# ScreenShots
 
 ![login 2](https://cloud.githubusercontent.com/assets/20724199/21388385/16335eb0-c7a2-11e6-83cc-f4cf652c4f35.png)
 ![login 3](https://cloud.githubusercontent.com/assets/20724199/21388387/16377dd8-c7a2-11e6-9591-eb2a67a134fd.png)
