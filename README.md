@@ -1,4 +1,4 @@
-Trying to move app to Android Studio
+Readme will be updated soon
 
 
 
