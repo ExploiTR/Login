@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="app.exploitr.fast.login">
+
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    
+    <application android:allowBackup="false"  android:icon="@drawable/ic_launcher" android:label="@string/Stocko_mod"  android:theme="@style/UnMaterial">
+
+        <meta-data android:name="android.webkit.WebView.MetricsOptOut" android:value="true" />
+
+    		<activity android:name="app.exploitr.fast.login.MainActivity" android:excludeFromRecents="true" >
+    			<intent-filter>
+    				<action android:name="android.intent.action.MAIN" />
+    				<category android:name="android.intent.category.LAUNCHER" />
+    			</intent-filter>
+    		</activity>
+    		<activity android:launchMode="singleInstance" android:theme="@android:style/Theme.Holo.Light.Dialog" android:label="About : Login v5 Boson" android:name="app.exploitr.fast.login.AboutActivity">
+    		</activity>
+    		<activity android:launchMode="singleInstance" android:theme="@android:style/Theme.Holo.Light.Dialog.NoActionBar" android:name="app.exploitr.fast.login.SettingsActivity" android:label="@string/Stocko_mod">
+    		</activity>
+            <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+    	</application>
+ 
+
+</manifest>

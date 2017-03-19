@@ -1,0 +1,31 @@
+apply plugin: 'com.android.application'
+android {
+    }
+    compileSdkVersion 22
+    buildToolsVersion '25.0.2'
+    defaultConfig {
+        applicationId "app.exploitr.fast.login"
+        minSdkVersion 16
+        targetSdkVersion 22
+        versionCode 710230
+        versionName "5 - Boson"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+        debug {
+            signingConfig signingConfigs.config
+            minifyEnabled true
+            proguardFile 'C:/Users/root/Documents/Studio/Login/app/proguard-rules.pro'
+        }
+    }
+    dependencies {
+        compile fileTree(include: ['*.jar'], dir: 'libs')
+        compile 'com.android.support:appcompat-v7:22.2.1'
+        compile 'com.google.firebase:firebase-ads:10.2.0'
+        compile 'com.scottyab:aescrypt:0.0.1'
+    }
+}
