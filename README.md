@@ -11,7 +11,7 @@ An ISP [Wishnet] Web-Based Autologin Helper
 
 
 # License
-This project is licensed under the terms of Apache 2.0 license. Additionally, the font at assets/sfont.ttf is Kano font (Kano Geometric Typeface) by Frederick Lee ( https://www.behance.net/flgraphic / http://ideasonpurpose.com/ )
+This project is licensed under the terms of Apache 2.0 license.
 
 # Downloads
 
