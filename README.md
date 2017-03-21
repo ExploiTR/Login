@@ -1,7 +1,7 @@
 # Login 
 An ISP [Wishnet] Web-Based Autologin Helper
 
-#Features :
+# Features :
 1. OneClick Login and connect to Internet
 2. OneClick Logout and disconnect from Internet
 3. Now, Username and Password stored in SharedPreferences are totally secured from ROOT user and encrypted!
@@ -10,14 +10,14 @@ An ISP [Wishnet] Web-Based Autologin Helper
 6. Impressive Material GUI.
 
 
-#License
+# License
 This project is licensed under the terms of Apache 2.0 license. Additionally, the font at assets/sfont.ttf is Kano font (Kano Geometric Typeface) by Frederick Lee ( https://www.behance.net/flgraphic / http://ideasonpurpose.com/ )
 
-#Downloads
+# Downloads
 
 https://github.com/ExploiTR/Login/releases
 
-#ScreenShots
+# ScreenShots
 
 ![login 2](https://raw.githubusercontent.com/ExploiTR/Login/master/screenshots/Screenshot_20170321-102533.png)
 ![login 3](https://raw.githubusercontent.com/ExploiTR/Login/master/screenshots/Screenshot_20170321-102541.png)
