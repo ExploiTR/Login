@@ -1,19 +1,12 @@
 <resources>
     <style name="UnMaterial" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="android:actionBarStyle">@style/actionbar</item>
         <item name="android:logo">@android:color/transparent</item>
-        <item name="android:windowBackground">@color/background_window</item>
-        <item name="colorPrimaryDark">#BDBDBD</item>
-        <item name="colorAccent">@color/selectable_blue</item>
-        <item name="actionModeBackground">@color/app_color_dark</item>
-        <item name="colorControlHighlight">@color/selectable_blue</item>
-        <item name="android:colorBackground">@color/background_window</item>
-    </style>
-    <style name="actionbar" parent="Widget.AppCompat.Light.ActionBar">
-        <item name="android:titleTextStyle">@style/ActionText</item>
-    </style>
-    <style name="ActionText" parent="RtlOverlay.Widget.AppCompat.ActionBar.TitleItem">
-        <item name="android:textColor">@android:color/white</item>
+        <item name="colorAccent">#f44336</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
     </style>
 </resources>
 

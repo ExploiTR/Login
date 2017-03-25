@@ -13,14 +13,12 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="100dp"
-        android:minHeight="55dp"
-        android:minWidth="110dp"
-        android:padding="10dp"
-        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/buttonback"
+        android:minHeight="50dp"
+        android:minWidth="100dp"
         android:text="@string/Stocko_mod"
-        android:textColor="@android:color/black"
-        style="?android:attr/borderlessButtonStyle"/>
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
 
     <TextView
@@ -30,7 +28,7 @@
         android:layout_above="@+id/login"
         android:layout_alignEnd="@+id/login"
         android:layout_alignRight="@+id/login"
-        android:layout_marginBottom="150dp"
+        android:layout_marginBottom="140dp"
         android:layout_marginEnd="60dp"
         android:layout_marginRight="60dp"
         android:text="@string/Nstatus"
@@ -44,7 +42,7 @@
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_above="@+id/login"
-        android:layout_marginBottom="127dp"
+        android:layout_marginBottom="120dp"
         android:layout_marginEnd= "10dp"
         android:layout_marginRight= "10dp"
         android:layout_toEndOf="@+id/status"
@@ -63,7 +61,7 @@
         android:layout_alignRight="@+id/isconnectedorx"
         android:layout_alignTop="@+id/login"
         android:layout_alignBottom="@+id/login"
-        android:visibility="invisible" />
+        android:visibility="invisible"/>
 
     <com.google.android.gms.ads.AdView
         android:id="@+id/adView"
