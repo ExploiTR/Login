@@ -2,15 +2,6 @@ apply plugin: 'com.android.application'
 
 android {
 
-    signingConfigs {
-        config {
-            keyAlias 'ExploiTR'
-            keyPassword 'Security%$%9519'
-            storeFile file('D:/EXP\'s/Android Programming/Studio Key/ExploiTR.jks')
-            storePassword 'Security%$%9519'
-        }
-    }
-
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
     defaultConfig {
