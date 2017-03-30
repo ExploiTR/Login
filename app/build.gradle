@@ -1,31 +1,39 @@
 apply plugin: 'com.android.application'
+
 android {
+
+    signingConfigs {
+        config {
+            keyAlias 'ExploiTR'
+            keyPassword 'Security%$%9519'
+            storeFile file('D:/EXP\'s/Android Programming/Studio Key/ExploiTR.jks')
+            storePassword 'Security%$%9519'
+        }
     }
-    compileSdkVersion 22
-    buildToolsVersion '25.0.2'
+
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
     defaultConfig {
         applicationId "app.exploitr.fast.login"
-        minSdkVersion 16
-        targetSdkVersion 22
-        versionCode 710230
-        versionName "5 - Boson"
+        minSdkVersion 19
+        targetSdkVersion 25
+        versionCode 710292
+        versionName "5-Boson"
     }
     buildTypes {
         release {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            signingConfig signingConfigs.config
-        }
-        debug {
-            signingConfig signingConfigs.config
-            minifyEnabled true
-            proguardFile 'C:/Users/root/Documents/Studio/Login/app/proguard-rules.pro'
         }
     }
-    dependencies {
-        compile fileTree(include: ['*.jar'], dir: 'libs')
-        compile 'com.android.support:appcompat-v7:22.2.1'
-        compile 'com.google.firebase:firebase-ads:10.2.0'
-        compile 'com.scottyab:aescrypt:0.0.1'
-    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:25.2.0'
+    compile 'com.android.support:design:25.2.0'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'pl.droidsonroids.gif:android-gif-drawable:1.2.6'
+    compile 'com.scottyab:aescrypt:0.0.1'
+    compile 'com.android.support:support-v4:25.2.0'
 }

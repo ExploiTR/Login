@@ -1,27 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string name="action_settings">Local Settings</string>
-    <string name="action_about">About Login</string>
-    <string name="Stocko_mod">Login</string>
-    <string name="data_top_text">Login Settings</string>
-    <string name="USER" />
-    <string name="PASSWORD" />
-    <string name="USERNAMEhint">Username</string>
-    <string name="PASSWORDhint">Password</string>
-    <string name="SaveCRBTtxt">Save Credentials</string>
-    <string name="Logout">Logout</string>  
-    <string name="Nstatus">Status :</string>
+    <string name="app_name">Login</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="login_by_exploitr">Login by ExploiTR</string>
+    <string name="pratimmajumder1_gmail_com">pratimmajumder1@gmail.com</string>
+    <string name="status">Status :</string>
+    <string name="enter_password">Enter password</string>
+    <string name="enter_username">Enter username</string>
+    <string name="reset">Reset</string>
+    <string name="save">Save</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="share">Share</string>
+    <string name="about_body">Hi! I\'ve discovered an app called "Login".\nYou will be able to seamlessly log into ISP Login page using this app.\nNow only Wishnet is supported.\nThe app isn\'t now available in the store.\nYou can grab a copy of the latest package from Github.\n\nhttps://github.com/ExploiTR/Login/releases</string>
+    <string name="okay">Okay</string>
     <string name="dsl">This application is only to be used for personal/non-commercial usage and must be used on networks for which you have permission to do so. Any other use will not be the responsibility of the developer.In other words, you will be responsible for what you do.</string>
     <string name="lsc">Login by ExploiTR is licensed under the terms of Apache 2.0 license. Additionally, the font at assets/sfont.ttf is Kano font (Kano Geometric Typeface) by Frederick Lee (www.behance.net/flgraphic | ideasonpurpose.com)\n</string>
-    <string name="lsc2">The AESCrypt Library used, is copyright of Scott Alexander-Bown(http://www.scottyab.com).The Icons used here, including the application logo, and other logos are copyright of the developer and made with Adobe Photoshop CS6 Extended</string>
-    <string name="meat_exel">ca-app-pub-8111689089728808/4079351379</string>
-    <string name="web">https://www.pforpratim.wordpress.com/</string>
-    <string name="git">https://github.com/ExploiTR/Login</string>
-    <string name="lscd">License</string>
+    <string name="lsc2">The AESCrypt Library used, is copyright of Scott Alexander-Bown(http://www.scottyab.com).The Icons used here, including the application logo, and other logos are copyright of the developer and made with Adobe Photoshop CC 2017</string>
+    <string name="license">License</string>
+    <string name="disclaimer">Disclaimer</string>
+    <string name="http_github_com_exploitr_login">http://github.com/exploitr/login</string>
+    <string name="http_exploitr_wordpress_com">http://exploitr.wordpress.com</string>
     <string name="what">- An ISP Login Helper</string>
     <string name="whois">Copyright of Pratim Majumder aka ExploiTR</string>
-    <string name="dscd">Disclaimer</string>
-    <string name="btntxt">I\'ve got it!</string>
-    <string name="_reset">Reset App</string>
 </resources>
