@@ -16,7 +16,7 @@
     <string name="okay">Okay</string>
     <string name="dsl">This application is only to be used for personal/non-commercial usage and must be used on networks for which you have permission to do so. Any other use will not be the responsibility of the developer.In other words, you will be responsible for what you do.</string>
     <string name="lsc">Login by ExploiTR is licensed under the terms of Apache 2.0 license. Additionally, the font at assets/sfont.ttf is Kano font (Kano Geometric Typeface) by Frederick Lee (www.behance.net/flgraphic | ideasonpurpose.com)\n</string>
-    <string name="lsc2">The AESCrypt Library used, is copyright of Scott Alexander-Bown(http://www.scottyab.com).The Icons used here, including the application logo, and other logos are copyright of the developer and made with Adobe Photoshop CC 2017</string>
+    <string name="lsc2">The AESCrypt Library used, is copyright of Scott Alexander-Bown(http://www.scottyab.com).The GIFView library used as progressbar is copyright of Karol Wrótniak@DroidsOnDroids(https://github.com/koral--).The Icons used here, including the application logo, and other logos are copyright of the developer and made with Adobe Photoshop CC 2017</string>
     <string name="license">License</string>
     <string name="disclaimer">Disclaimer</string>
     <string name="http_github_com_exploitr_login">http://github.com/exploitr/login</string>
