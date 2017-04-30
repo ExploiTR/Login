@@ -12,11 +12,11 @@
     <string name="settings">Settings</string>
     <string name="about">About</string>
     <string name="share">Share</string>
-    <string name="about_body">Hi! I\'ve discovered an app called "Login".\nYou will be able to seamlessly log into ISP Login page using this app.\nNow only Wishnet is supported.\nThe app isn\'t now available in the store.\nYou can grab a copy of the latest package from Github.\n\nhttps://github.com/ExploiTR/Login/releases</string>
+    <string name="about_body">Hi! I\'ve discovered an app called "Login".\nYou will be able to seamlessly log into ISP Login page using this app.\nNow only Wishnet ISP is supported.\nThe app isn\'t now available in the store.\nYou can grab a copy of the latest package from Github.\n\nhttps://github.com/ExploiTR/Login/releases</string>
     <string name="okay">Okay</string>
     <string name="dsl">This application is only to be used for personal/non-commercial usage and must be used on networks for which you have permission to do so. Any other use will not be the responsibility of the developer.In other words, you will be responsible for what you do.</string>
-    <string name="lsc">Login by ExploiTR is licensed under the terms of Apache 2.0 license. Additionally, the font at assets/sfont.ttf is Kano font (Kano Geometric Typeface) by Frederick Lee (www.behance.net/flgraphic | ideasonpurpose.com)\n</string>
-    <string name="lsc2">The AESCrypt Library used, is copyright of Scott Alexander-Bown(http://www.scottyab.com).The GIFView library used as progressbar is copyright of Karol Wrótniak@DroidsOnDroids(https://github.com/koral--).The Icons used here, including the application logo, and other logos are copyright of the developer and made with Adobe Photoshop CC 2017</string>
+    <string name="lsc">Login by ExploiTR is licensed under the terms of Apache 2.0 license. The font at assets/sfont.ttf is Kano font (Kano Geometric Typeface) by Frederick Lee (www.behance.net/flgraphic | ideasonpurpose.com)\n</string>
+    <string name="lsc2">The AESCrypt Library used, is copyright of Scott Alexander-Bown(http://www.scottyab.com).The application logo, and other logos are copyright of the developer\n\nAdditionally, some icons have been distributed under the CC-BY 4.0 license and are copyrighted by Google, Inc.The full icon set is available at https://www.google.com/design/icons </string>
     <string name="license">License</string>
     <string name="disclaimer">Disclaimer</string>
     <string name="http_github_com_exploitr_login">http://github.com/exploitr/login</string>
