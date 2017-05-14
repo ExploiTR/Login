@@ -19,9 +19,7 @@ https://github.com/ExploiTR/Login/releases
 
 # ScreenShots
 
-![login 2](https://raw.githubusercontent.com/ExploiTR/Login/master/screenshots/Screenshot_20170321-102533.png)
-![login 3](https://raw.githubusercontent.com/ExploiTR/Login/master/screenshots/Screenshot_20170321-102541.png)
-![login 3](https://raw.githubusercontent.com/ExploiTR/Login/master/screenshots/Screenshot_20170321-102556.png)
+Update will be done soon
 
 
 
