@@ -6,8 +6,10 @@ An ISP [Wishnet] Web-Based Autologin Helper
 2. OneClick Logout and disconnect from Internet
 3. Now, Username and Password stored in SharedPreferences are totally secured from ROOT user and encrypted!
 4. This time only WishNet is supported, focus on the future versions for other ISP support.
-5. Only 1.5 Mb (Will be reduced more later)
-6. Impressive Material GUI.
+5. Light-In-Size.
+6. Impressive Material GUI [Transition animation - *new*]
+7. Customize theme (7 available) *[NEW]*
+8. Customize Progressbar (5 available) *[NEW]*
 
 
 # License
