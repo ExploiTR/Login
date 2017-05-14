@@ -11,13 +11,6 @@ android {
         versionCode 710215
         versionName "6-Gluon"
     }
-    buildTypes {
-        release {
-            minifyEnabled true
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            signingConfig signingConfigs.config
-        }
-    }
 }
 
 dependencies {
