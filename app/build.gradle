@@ -1,24 +1,42 @@
 apply plugin: 'com.android.application'
 
 android {
-
+    signingConfigs {
+        config {
+            keyAlias 'ExploiTR'
+            keyPassword 'Security%$%9519'
+            storeFile file('D:/Programming Data/Android Programming/Studio Key/ExploiTR.jks')
+            storePassword 'Security%$%9519'
+        }
+    }
     compileSdkVersion 25
-    buildToolsVersion "25.0.2"
+    buildToolsVersion "25.0.3"
     defaultConfig {
         applicationId "app.exploitr.fast.login"
         minSdkVersion 19
         targetSdkVersion 25
-        versionCode 710215
-        versionName "6-Gluon"
+        versionCode 710518
+        versionName "7-Atom"
+    }
+    buildTypes {
+        debug {
+            signingConfig signingConfigs.config
+        }
+        release {
+            signingConfig signingConfigs.config
+            minifyEnabled true
+        }
     }
 }
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile 'com.android.support:appcompat-v7:25.2.0'
-    compile 'com.android.support:design:25.2.0'
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support:design:25.3.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'pl.droidsonroids.gif:android-gif-drawable:1.2.6'
     compile 'com.scottyab:aescrypt:0.0.1'
-    compile 'com.android.support:support-v4:25.2.0'
+    compile 'com.android.support:support-v4:25.3.1'
+    compile 'com.squareup.okhttp3:okhttp:3.8.0'
+
 }

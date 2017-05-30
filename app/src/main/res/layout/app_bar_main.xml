@@ -29,6 +29,6 @@
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
         app:fabSize="auto"
-        app:srcCompat="@drawable/fab_back_login" />
+        app:srcCompat="@drawable/wifi_up" />
 
 </android.support.design.widget.CoordinatorLayout>
