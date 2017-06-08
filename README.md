@@ -10,8 +10,7 @@ An ISP [Wishnet] Web-Based Autologin Helper
 4. This time only WishNet is supported, focus on the future versions for other ISP support.
 5. Light-In-Size.
 6. Impressive Material GUI [Transition animation - *new*]
-7. Customize theme (7 available) *[NEW]*
-8. Customize Progressbar (5 available) *[NEW]*
+7. Customize theme and progressbar (7 available) *[NEW]*
 
 
 # License
@@ -23,8 +22,9 @@ https://github.com/ExploiTR/Login/releases
 
 # ScreenShots
 
-Update will be done soon
-
+![](https://raw.githubusercontent.com/ExploiTR/Login/master/screenshots/device-2017-06-08-213123.png)
+![](https://raw.githubusercontent.com/ExploiTR/Login/master/screenshots/device-2017-06-08-213013.png)
+![](https://raw.githubusercontent.com/ExploiTR/Login/master/screenshots/device-2017-06-08-213035.png)
 
 
 
