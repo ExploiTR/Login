@@ -20,11 +20,9 @@
     <string name="license">License</string>
     <string name="disclaimer">Disclaimer</string>
     <string name="http_github_com_exploitr_login">http://github.com/exploitr/login</string>
-    <string name="http_exploitr_wordpress_com">http://exploitr.wordpress.com</string>
+    <string name="http_exploitr_wordpress_com">http://exploitrme.wordpress.com</string>
     <string name="what">- An ISP Login Helper</string>
     <string name="whois">Copyright of Pratim Majumder aka ExploiTR</string>
-    <string name="appearance">Progress Bar</string>
-    <string name="go_back">Go Back</string>
     <string name="_set">SET</string>
     <string name="theme">Theme</string>
 </resources>

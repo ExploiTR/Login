@@ -7,15 +7,13 @@ android {
         applicationId "app.exploitr.fast.login"
         minSdkVersion 19
         targetSdkVersion 25
-        versionCode 710518
-        versionName "7-Atom"
+        versionCode 71020724
+        versionName "8-Electron"
     }
     buildTypes {
         debug {
-            signingConfig signingConfigs.config
         }
         release {
-            signingConfig signingConfigs.config
             minifyEnabled false
         }
     }
