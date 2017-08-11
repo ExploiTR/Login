@@ -1,6 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
+
     compileSdkVersion 25
     buildToolsVersion "25.0.3"
     defaultConfig {
@@ -10,13 +11,7 @@ android {
         versionCode 71020724
         versionName "8-Electron"
     }
-    buildTypes {
-        debug {
-        }
-        release {
-            minifyEnabled false
-        }
-    }
+
 }
 
 dependencies {
