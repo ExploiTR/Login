@@ -5,6 +5,7 @@
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
@@ -25,6 +26,9 @@
         <activity android:name=".SettingsActivity" />
         <activity android:name=".AboutActivity" />
         <activity android:name=".ThemeActivity" />
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="b531c330857e24f378d562b1176ce4574483c2be" />
     </application>
 
 </manifest>
