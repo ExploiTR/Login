@@ -21,16 +21,5 @@ This project is licensed under the terms of Apache 2.0 license.
 https://github.com/ExploiTR/Login/releases
 
 # Video
-
-https://youtu.be/Csj9p_hn9FE
-
-# ScreenShots
-
-![](https://raw.githubusercontent.com/ExploiTR/Login/master/screenshots/device-2017-06-08-213123.png)
-![](https://raw.githubusercontent.com/ExploiTR/Login/master/screenshots/device-2017-06-08-213013.png)
-![](https://raw.githubusercontent.com/ExploiTR/Login/master/screenshots/device-2017-06-08-213035.png)
-
-
-
-
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Csj9p_hn9FE/0.jpg)](https://www.youtube.com/watch?v=Csj9p_hn9FE)
 
