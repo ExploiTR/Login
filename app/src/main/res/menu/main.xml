@@ -1,6 +1,6 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="app.exploitr.fast.login.MainActivity"
+    tools:context="app.exploitr.login.free.MainActivity"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
