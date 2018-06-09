@@ -1,4 +1,4 @@
-![ALT TEXT](https://raw.githubusercontent.com/ExploiTR/Login/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png)
+![ALT TEXT](https://raw.githubusercontent.com/ExploiTR/Login/master/app/src/main/ic_launcher-web.png)
 
 # Login 
 An ISP [Wishnet] Web-Based Autologin Helper 
