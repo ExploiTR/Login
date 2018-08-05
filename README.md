@@ -17,8 +17,9 @@ An ISP [Wishnet] Web-Based Autologin Helper
 This project is licensed under the terms of Apache 2.0 license.
 
 # Downloads
-
 https://github.com/ExploiTR/Login/releases
+
+<a href='https://play.google.com/store/apps/details?id=app.exploitr.login.free&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' width=360 height=140 src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
 
 # Video
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Csj9p_hn9FE/0.jpg)](https://www.youtube.com/watch?v=Csj9p_hn9FE)
