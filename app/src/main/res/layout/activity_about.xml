@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <LinearLayout android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
@@ -139,12 +138,30 @@
 
     </ScrollView>
 
+
     <Button
         android:id="@+id/OK"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.2"
         android:text="@string/okay"
-        style="?android:attr/borderlessButtonStyle"/>
+        style="@style/Widget.AppCompat.Button.Colored"/>
+
+    <Button
+        android:id="@+id/pvp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:text="@string/privacy_policy"
+        style="@style/Widget.AppCompat.Button.Colored"/>
+
+    <Button
+        android:id="@+id/tos"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:text="@string/terms_and_conditions"
+        style="@style/Widget.AppCompat.Button.Colored"/>
+
 
 </LinearLayout>

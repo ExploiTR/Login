@@ -2,30 +2,29 @@
 <resources>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#303F9F</color>
-    <color name="buttonBackPressed">#BDBDBD</color>
+    <color name="colorAccent">#757de8</color>
 
     <color name="colorPrimary2">#6A1B9A</color>
     <color name="colorPrimaryDark2">#4A148C</color>
-    <color name="colorAccent2">#6A1B9A</color>
+    <color name="colorAccent2">#9c4dcc</color>
 
     <color name="colorPrimary3">#283593</color>
     <color name="colorPrimaryDark3">#1A237E</color>
-    <color name="colorAccent3">#283593</color>
+    <color name="colorAccent3">#5f5fc4</color>
 
     <color name="colorPrimary4">#1565C0</color>
     <color name="colorPrimaryDark4">#0D47A1</color>
-    <color name="colorAccent4">#1565C0</color>
+    <color name="colorAccent4">#5e92f3</color>
 
     <color name="colorPrimary5">#424242</color>
     <color name="colorPrimaryDark5">#212121</color>
-    <color name="colorAccent5">#424242</color>
+    <color name="colorAccent5">#6d6d6d</color>
 
     <color name="colorPrimary6">#37474F</color>
     <color name="colorPrimaryDark6">#263238</color>
-    <color name="colorAccent6">#37474F</color>
+    <color name="colorAccent6">#62727b</color>
 
     <color name="colorPrimary7">#C62828</color>
     <color name="colorPrimaryDark7">#B71C1C</color>
-    <color name="colorAccent7">#C62828</color>
+    <color name="colorAccent7">#ff5f52</color>
 </resources>

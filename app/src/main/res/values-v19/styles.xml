@@ -1,7 +1,1 @@
-<resources>
-    <style name="UnMaterial" parent="Theme.AppCompat.Light">
-        <item name="android:windowTranslucentNavigation">false</item>
-        <item name="android:windowTranslucentStatus">true</item>
-        <item name="android:windowNoTitle">true</item>
-    </style>
-</resources>
+<resources></resources>
