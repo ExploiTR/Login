@@ -21,8 +21,8 @@ android {
         applicationId "app.exploitr.login.free"
         minSdkVersion 19
         targetSdkVersion 28
-        versionCode 810206273 //yyyyMMdd-instance
-        versionName "_trouble"
+        versionCode 910206291 //yyyyMMdd-instance
+        versionName "1.0.4"
     }
     compileOptions {
         sourceCompatibility = '1.8'
