@@ -1,170 +1,166 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:padding="@dimen/activity_vertical_margin">
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".ui_access.ThemeActivity"
+    tools:ignore="UseCompoundDrawables">
 
     <LinearLayout
+        android:id="@+id/click_toolbar"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1.06"
+            android:gravity="start|center"
+            android:text="@string/toolbar_fab_colour"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
 
-            <ImageView
-                android:layout_width="200dp"
-                android:layout_height="wrap_content"
-                android:cropToPadding="true"
-                android:padding="10dp"
-                android:src="@drawable/palette1" />
-
-            <Button
-                android:id="@+id/setblue"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_weight="1"
-                android:text="@string/_set" />
-
-        </LinearLayout>
-
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:layout_width="200dp"
-                android:layout_height="wrap_content"
-                android:cropToPadding="true"
-                android:padding="10dp"
-                android:src="@drawable/palette3" />
-
-            <Button
-                android:id="@+id/setviolet"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_weight="1"
-                android:text="@string/_set" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:layout_width="200dp"
-                android:layout_height="wrap_content"
-                android:cropToPadding="true"
-                android:padding="10dp"
-                android:src="@drawable/palette4" />
-
-            <Button
-                android:id="@+id/setdeepblue"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_weight="1"
-                android:text="@string/_set" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:layout_width="200dp"
-                android:layout_height="wrap_content"
-                android:cropToPadding="true"
-                android:padding="10dp"
-                android:src="@drawable/palette5" />
-
-            <Button
-                android:id="@+id/setindigo"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_weight="1"
-                android:text="@string/_set" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:layout_width="200dp"
-                android:layout_height="wrap_content"
-                android:cropToPadding="true"
-                android:padding="10dp"
-                android:src="@drawable/palette6" />
-
-            <Button
-                android:id="@+id/setgrey"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_weight="1"
-                android:text="@string/_set" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:layout_width="200dp"
-                android:layout_height="wrap_content"
-                android:cropToPadding="true"
-                android:padding="10dp"
-                android:src="@drawable/palette7" />
-
-            <Button
-                android:id="@+id/setbluegrey"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_weight="1"
-                android:text="@string/_set" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:layout_width="200dp"
-                android:layout_height="wrap_content"
-                android:cropToPadding="true"
-                android:padding="10dp"
-                android:src="@drawable/palette8" />
-
-            <Button
-                android:id="@+id/setRed"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_weight="1"
-                android:text="@string/_set" />
-
-        </LinearLayout>
-
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/tool_color"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:src="@drawable/back_round"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
 
     </LinearLayout>
 
-</ScrollView>
+    <LinearLayout
+        android:id="@+id/click_toolbar_text"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="start|center"
+            android:text="@string/toolbar_text_colour"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/tool_color_text"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1.03"
+            android:src="@drawable/back_round"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/click_status"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1.15"
+            android:gravity="start|center"
+            android:text="@string/status_text_colour"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/status_color"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:src="@drawable/back_round"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/click_log"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.90"
+            android:gravity="start|center"
+            android:text="@string/login_out_text_colour"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/log_color"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:src="@drawable/back_round"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/click_prog"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1.1"
+            android:gravity="start|center"
+            android:text="@string/progressbar_colour"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/prog_color"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:src="@drawable/back_round"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/apply_btn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_margin="10dp"
+        android:text="@string/apply_changes" />
+
+</LinearLayout>

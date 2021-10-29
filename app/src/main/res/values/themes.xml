@@ -1,0 +1,23 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="fontFamily">@font/mosk</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar.Translucent">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="splashScreenTheme_16_9" parent="AppTheme.NoActionBar.Translucent">
+        <item name="android:windowBackground">@drawable/splash_back_shape_16_9</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+</resources>

@@ -1,39 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="app.exploitr.login.free">
+    package="app.exploitr.fast.login"
+    tools:ignore="GoogleAppIndexingWarning">
 
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
     <application
-        android:name=".LoginApp"
+        android:name="app.exploitr.login.platinum.helpers.AutoApp"
         android:allowBackup="false"
+        android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="Login"
+        android:label="@string/app_name"
         android:supportsRtl="false"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
-        tools:ignore="GoogleAppIndexingWarning"
         tools:targetApi="m">
         <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:name="app.exploitr.login.platinum.ui.activities.MainScreen"
+            android:exported="false"
+            android:label="@string/title_activity_main_screen" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name="app.exploitr.login.platinum.ui.activities.SplashScreen"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SettingsActivity" />
-        <activity android:name=".AboutActivity" />
-        <activity android:name=".ThemeActivity" />
+        <activity
+            android:name=".ui_access.MainActivity"
+            android:hardwareAccelerated="true"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui_access.AboutActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui_access.ThemeActivity"
+            android:theme="@style/AppTheme.ThemeActivity" />
 
         <meta-data
             android:name="io.fabric.ApiKey"
-            android:value="########################################" />
+            android:value="b531c330857e24f378d562b1176ce4574483c2be" />
+
+        <activity
+            android:name=".ui_access.SettingsActivity"
+            android:theme="@style/AppTheme.SettingsActivity" />
+        <activity
+            android:name=".ui_access.IntroActivity"
+            android:theme="@style/Theme.Intro" />
+        <activity android:name=".ui_access.SplashActivity" />
+
+        <receiver
+            android:name=".background_workers.ClickReceiver"
+            android:enabled="true"
+            android:exported="true" />
+
+        <service android:name=".background_workers.AlwaysOnService" />
     </application>
 
 </manifest>

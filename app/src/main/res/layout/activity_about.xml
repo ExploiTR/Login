@@ -1,167 +1,131 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:orientation="vertical">
 
-    <ScrollView
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:padding="10dp"
-        android:layout_weight="1.8"
-        android:layout_height="0dp" >
+        android:id="@+id/scroller"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-        <LinearLayout
+        <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
-            <RelativeLayout
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center" >
+                android:gravity="start"
+                android:text="@string/developer"
+                android:textColor="#000000"
+                android:textSize="18sp" />
 
-                <TextView
-                    android:id="@+id/status"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentStart="true"
-                    android:layout_alignParentTop="true"
-                    android:text="@string/app_name"
-                    android:textAppearance="?android:attr/textAppearanceLarge" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:layout_marginStart="12dp"
-                    android:layout_toEndOf="@+id/status"
-                    android:text="@string/what"
-                    android:textAppearance="?android:attr/textAppearanceMedium" />
-            </RelativeLayout>
-
-            <LinearLayout
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical" >
+                android:text="@string/dev_msg" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="@string/whois"
-                    android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:textSize="12sp" />
-
-                <Space
-                    android:layout_width="match_parent"
-                    android:layout_height="4dp" />
-
-                <TextView
-                    android:id="@+id/url"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="@string/http_exploitr_wordpress_com"
-                    android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:textColor="@android:color/holo_blue_dark"
-                    android:textSize="12sp" />
-
-                <TextView
-                    android:id="@+id/giturl"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="12sp"
-                    android:paddingTop="3dp"
-                    android:layout_gravity="center_horizontal"
-                    android:text="@string/http_github_com_exploitr_login"
-                    android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:textColor="@android:color/holo_blue_light" />
-
-            </LinearLayout>
-
-            <LinearLayout
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical" >
-                
-                <Space
-                    android:layout_width="match_parent"
-                    android:layout_height="4dp" />
+                android:paddingTop="5dp"
+                android:text="@string/github_github_com_exploitr"
+                android:textColor="#1a237e" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/disclaimer"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="18sp" />
-
-                <Space
-                    android:layout_width="match_parent"
-                    android:layout_height="3dp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/dsl"
-                    android:textAppearance="?android:attr/textAppearanceSmall" />
-
-                <Space
-                    android:layout_width="match_parent"
-                    android:layout_height="5dp" />
-            </LinearLayout>
-
-            <LinearLayout
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical" >
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="@string/insta_init_"
+                android:textColor="#1a237e" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/license"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="18sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:text="@string/blog_wordpress_"
+                android:textColor="#1a237e" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/lsc"
-                    android:textAppearance="?android:attr/textAppearanceSmall" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text="@string/disclaimer"
+                android:textColor="#000000"
+                android:textSize="18sp" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/lsc2"
-                    android:textAppearance="?android:attr/textAppearanceSmall" />
-            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/disclaimer_text" />
 
-        </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text="@string/version_information"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/vInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/no_information" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text="@string/algorithmic_info_s"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/inet_acur_msg"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/error_status_message" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/avg_inf_title"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/what_is_avg" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
 
     </ScrollView>
 
-
     <Button
-        android:id="@+id/OK"
+        android:id="@+id/osl"
+        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.2"
-        android:text="@string/okay"
-        style="@style/Widget.AppCompat.Button.Colored"/>
-
-    <Button
-        android:id="@+id/pvp"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.2"
-        android:text="@string/privacy_policy"
-        style="@style/Widget.AppCompat.Button.Colored"/>
-
-    <Button
-        android:id="@+id/tos"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.2"
-        android:text="@string/terms_and_conditions"
-        style="@style/Widget.AppCompat.Button.Colored"/>
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="end|bottom"
+        android:gravity="center"
+        android:visibility="invisible"
+        android:minHeight="55dp"
+        android:text="@string/open_source_licenses_dlg"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
 
 
-</LinearLayout>
+</RelativeLayout>
