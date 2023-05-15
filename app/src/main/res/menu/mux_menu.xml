@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/open_web"
+        android:icon="@drawable/ic_web"
+        android:orderInCategory="0"
+        android:title="@string/open_web_version"
+        app:showAsAction="always" />
+
+    <item
+        android:icon="@drawable/ic_bug_report"
+        android:orderInCategory="1"
+        android:title="@string/report_a_bug"
+        app:showAsAction="ifRoom" />
+</menu>

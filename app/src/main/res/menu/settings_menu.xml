@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/c_u"
+        android:orderInCategory="1"
+        android:icon="@drawable/ic_cloud_upload"
+        android:title="@string/upload"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/c_d"
+        android:orderInCategory="2"
+        android:icon="@drawable/ic_cloud_download"
+        android:title="@string/download"
+        app:showAsAction="ifRoom" />
+</menu>

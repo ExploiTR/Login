@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="56dp"
+    android:background="#f5f5f5"
+    tools:context="app.exploitr.login.platinum.ui.fragments.stat.StatFragment">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/networkAnim"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="0dp"
+        android:padding="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/network3"
+        app:lottie_renderMode="hardware"
+        app:lottie_speed="1" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/pingGraph"
+        app:layout_constraintTop_toBottomOf="@+id/networkAnim"
+        app:layout_constraintVertical_bias=".25">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/background_highlight"
+            android:fontFamily="@font/proxima_asi_r"
+            android:padding="8dp"
+            android:text="@string/network_statistics"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ip_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/background_info"
+            android:fontFamily="@font/proxima_asi_r"
+            android:padding="8dp"
+            android:text="@string/finding_public_ip_address"
+            android:textColor="@android:color/white"
+            android:textStyle="italic|bold" />
+
+        <TextView
+            android:id="@+id/isp_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/background_info"
+            android:fontFamily="@font/proxima_asi_r"
+            android:padding="8dp"
+            android:text="@string/searching_isp_information"
+            android:textColor="@android:color/white"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/overall_avg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/background_info"
+            android:fontFamily="@font/proxima_asi_r"
+            android:padding="8dp"
+            android:text="@string/waiting_sec"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/network_health"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/background_info"
+            android:fontFamily="@font/proxima_asi_r"
+            android:padding="8dp"
+            android:text="@string/waiting_sec"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/packet_loss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/background_info"
+            android:fontFamily="@font/proxima_asi_r"
+            android:padding="8dp"
+            android:text="@string/waiting_sec"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <com.txusballesteros.SnakeView
+        android:id="@+id/pingGraph"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:chartStyle="fill_stroke"
+        app:fillColor="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:maxValue="200"
+        app:maximumNumberOfValues="64"
+        app:scaleMode="fixed"
+        app:strokeColor="@color/graph_end"
+        app:strokeWidth="1.6dp" />
+
+    <com.txusballesteros.SnakeView
+        android:id="@+id/pingAvgGraph"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:chartStyle="stroke"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:maxValue="200"
+        app:maximumNumberOfValues="64"
+        app:scaleMode="fixed"
+        app:strokeColor="#FFD700"
+        app:strokeWidth="1.2dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

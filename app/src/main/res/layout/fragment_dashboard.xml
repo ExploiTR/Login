@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="app.exploitr.login.platinum.ui.fragments.dashboard.DashboardFragment">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/profile_photo_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.01">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_photo_view"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:background="@drawable/image_profile_back"
+                    android:elevation="8dp"
+                    android:padding="12dp"
+                    android:src="@drawable/sample_profile" />
+
+                <View
+                    android:id="@+id/spacing_2dp"
+                    android:layout_width="2dp"
+                    android:layout_height="110dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="25dp"
+                    android:layout_toStartOf="@+id/join_container"
+                    android:background="@color/graph_start" />
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:id="@+id/join_container"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:fontFamily="@font/mosk"
+                        android:text="@string/joined" />
+
+                    <TextView
+                        android:id="@+id/join_timing_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:fontFamily="@font/mosk"
+                        android:text="@string/loading_msg"
+                        android:textColor="@android:color/black"
+                        android:textSize="17sp" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/first_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/mosk"
+                android:paddingStart="8dp"
+                android:text="@string/unknown_msg"
+                android:textColor="@color/colorPrimary"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/last_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/mosk"
+                android:paddingStart="8dp"
+                android:text="@string/sign_in_with_google"
+                android:textSize="36sp" />
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/isp_profile_select"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginBottom="2dp"
+                android:theme="@style/Theme.MaterialComponents.Light"
+                app:cardCornerRadius="164dp"
+                app:cardElevation="2dp"
+                app:strokeColor="@color/bl">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawablePadding="8dp"
+                    android:fontFamily="@font/proxima_asi_b"
+                    android:padding="8dp"
+                    android:text="@string/isp_profile"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="24sp"
+                    app:drawableEndCompat="@drawable/ic_select"
+                    app:drawableStartCompat="@drawable/ic_isp_profile"
+                    app:drawableTint="@color/colorPrimary" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="-9sp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="2dp"
+                android:theme="@style/Theme.MaterialComponents.Light"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="1dp"
+                app:strokeColor="@color/bl">
+
+                <TextView
+                    android:id="@+id/isp_selected_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@color/colorPrimary"
+                    android:drawablePadding="8dp"
+                    android:fontFamily="@font/proxima_asi_b"
+                    android:gravity="bottom"
+                    android:padding="8dp"
+                    android:text="@string/loading_isp_details"
+                    android:textColor="@color/wh"
+                    android:textSize="18sp"
+                    app:drawableEndCompat="@drawable/ic_isp_text_show"
+                    app:drawableTint="@color/wh" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/user_profile_select"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginBottom="2dp"
+                android:theme="@style/Theme.MaterialComponents.Light"
+                app:cardCornerRadius="164dp"
+                app:cardElevation="2dp"
+                app:strokeColor="@color/bl">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawablePadding="8dp"
+                    android:fontFamily="@font/proxima_asi_b"
+                    android:padding="8dp"
+                    android:text="@string/user_profile"
+                    android:textColor="@color/graph_end"
+                    android:textSize="24sp"
+                    app:drawableEndCompat="@drawable/ic_select"
+                    app:drawableStartCompat="@drawable/ic_user_profile"
+                    app:drawableTint="@color/graph_end" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="-9sp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="2dp"
+                android:theme="@style/Theme.MaterialComponents.Light"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="1dp"
+                app:strokeColor="@color/bl">
+
+                <TextView
+                    android:id="@+id/user_selected_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@color/graph_end"
+                    android:drawablePadding="8dp"
+                    android:fontFamily="@font/proxima_asi_b"
+                    android:gravity="bottom"
+                    android:padding="8dp"
+                    android:text="@string/loading_isp_details"
+                    android:textColor="@color/wh"
+                    android:textSize="18sp"
+                    app:drawableEndCompat="@drawable/ic_user_selected"
+                    app:drawableTint="@color/wh" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="64dp"
+                android:orientation="horizontal">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/sign_in"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:theme="@style/Theme.MaterialComponents.Light"
+                    app:cardCornerRadius="24dp"
+                    app:cardElevation="4dp"
+                    app:strokeColor="@color/bl">
+
+                    <TextView
+                        android:id="@+id/sign_in_out_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@color/purp"
+                        android:drawablePadding="8dp"
+                        android:fontFamily="@font/mosk"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="@string/sign_in"
+                        android:textColor="@color/wh"
+                        android:textSize="16sp"
+                        app:drawableStartCompat="@drawable/ic_select"
+                        app:drawableTint="@color/wh" />
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.ncorti.slidetoact.SlideToActView
+                    android:id="@+id/connect_disconnect"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="4dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_toEndOf="@id/sign_in"
+                    android:elevation="2dp"
+                    app:area_margin="4dp"
+                    app:inner_color="@color/wh"
+                    app:outer_color="@color/bl"
+                    app:slider_height="56dp"
+                    app:text="Connect"
+                    app:text_color="@color/wh"
+                    app:text_size="18sp" />
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/connect_disconnect"
+                    android:layout_alignTop="@+id/connect_disconnect"
+                    android:layout_alignEnd="@id/connect_disconnect"
+                    android:layout_alignBottom="@id/connect_disconnect"
+                    android:visibility="invisible"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    app:lottie_rawRes="@raw/ctl"
+                    app:lottie_renderMode="hardware"
+                    app:lottie_speed="2" />
+
+            </RelativeLayout>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </ScrollView>
+</layout>
